@@ -1,5 +1,5 @@
 #!/usr/bin/env awk -f
-#original author Edana Lord @CPG Stockholm
+#original author David Díez del Molino
 { 
     sum += $1
     nums[NR] = $1  # We store the input records
